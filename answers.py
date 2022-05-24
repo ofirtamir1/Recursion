@@ -1,5 +1,5 @@
 #ex1
-def recur_sum(m):
+def recur_sum(n):
    if n <= 1:
        return n
    else:
@@ -15,3 +15,16 @@ def Factorial(n):
 #print(Factorial(5))
 
 #ex3
+def x(n):
+    if n%2==0:
+        if n== 2:
+            return 2
+        return n+x(n-2)
+    else:
+        if n==1:
+            return 1
+        return n + x(n - 2)
+
+#print(x(7))
+#ex4
+
