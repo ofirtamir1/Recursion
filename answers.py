@@ -28,3 +28,14 @@ def x(n):
 #print(x(7))
 #ex4
 
+def recur_sum(n):
+   if n <= 1:
+       return n
+   else:
+       return n** + recur_sum(n-1)
+#ex5
+def Fibonacci(n):
+    if n <= 1:
+        return 1
+    return Fibonacci(n - 1) + Fibonacci(n - 2)
+
